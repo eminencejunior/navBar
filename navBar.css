@@ -40,6 +40,8 @@ header a {
     display: none;
 }
 .secondsec {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
     background-image: url(./images/iphone.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
@@ -50,6 +52,22 @@ header a {
 font-family: 'Noto Serif', serif;
 font-family: 'Oswald', sans-serif;
 font-family: 'Roboto', sans-serif;
+}
+.seconddiv {
+    padding-left: 66%;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.seconddiv p {
+    font-size: 40px;
+    color: (15, 15, 68)
+}
+.seconddiv p span {
+    font-size: 15px;
+    color: grey;
 }
 .firstp {
   font-size: 50px;
@@ -101,6 +119,8 @@ font-family: 'Roboto', sans-serif;
         width: 80px;
      }
      .secondsec {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
        padding-top: 40px;
        margin-top: 30px;
        font-family: 'Heebo', sans-serif;
