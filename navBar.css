@@ -113,7 +113,7 @@ font-family: 'Roboto', sans-serif;
 @media  screen and (max-width:400px){
     #quick {
         display: inline-flex;
-        margin-left: 150px;
+        margin-left: 240px;
     }
     header a {
         display: none;
@@ -167,7 +167,7 @@ font-family: 'Roboto', sans-serif;
      }
      .firstbut {
         margin-left: 20px;
-        padding: 10px 46px;
+        padding: 20px 90px;
      }
      .seconddiv {
         display: none;
@@ -188,7 +188,7 @@ font-family: 'Roboto', sans-serif;
      .thirdp {
         font-size: 20px;
         padding-left: 60px;
-        margin-left: 0px;
+        margin-left: 30px;
         margin-top: 110px;
      }
     }
