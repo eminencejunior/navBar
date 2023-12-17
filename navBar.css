@@ -86,6 +86,30 @@ font-family: 'Roboto', sans-serif;
     margin-top: 40px;
     margin-left: 90px;
   }
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color:  rgb(17, 17, 34);
+    margin: 120px 90px 90px 90px;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+  }
+  .thirddiv img {
+    padding-top: 120px;
+    height: 600px;
+    object-fit: cover;
+  }
+  .thirdp {
+    font-size: 30px;
+    float: right;
+    color: white;
+    position: absolute;
+    padding-top: 190px;
+    margin-left: 40%;
+  }
 @media  screen and (max-width:400px){
     #quick {
         display: inline-flex;
@@ -107,7 +131,6 @@ font-family: 'Roboto', sans-serif;
         padding-left: 15px;
         padding-right: 10px;
         padding-bottom: 10px;
-        position: fixed;
     }
     .firstsec a {
         text-decoration: none;
@@ -138,6 +161,35 @@ font-family: 'Roboto', sans-serif;
      .secondp {
         margin-left: 20px;
         font-size: 14px;
+     }
+     .secondsec {
+        display: flex;
+     }
+     .firstbut {
+        margin-left: 20px;
+        padding: 10px 46px;
+     }
+     .seconddiv {
+        display: none;
+     }
+     .thirddiv {
+        display: flex;
+    }
+    footer {
+         display: flex;
+         margin: 30px 20px 0px 20px;
+         padding-bottom: 60px;
+     }
+     .thirddiv img {
+          height: 300px;
+          display: absolute;
+          padding-right: 60px;
+     }
+     .thirdp {
+        font-size: 20px;
+        padding-left: 60px;
+        margin-left: 0px;
+        margin-top: 110px;
      }
     }
 
